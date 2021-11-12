@@ -1,0 +1,7 @@
+export const AUTH = 'AUTH'
+export const LOGOUT = 'LOGOUT'
+export const FETCH = 'FETCH'
+export const POST = 'POST'
+export const UPDATE = 'UPDATE'
+export const LIKED = 'LIKED'
+export const DELETE = 'DELETE'
