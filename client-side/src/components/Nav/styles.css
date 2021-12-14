@@ -1,0 +1,58 @@
+.nav {
+  position: sticky;
+  /* width: 100%; */
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_link {
+  text-decoration: none;
+  color: transparent;
+  font-size: 4rem;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 500;
+  margin-right: auto;
+  color: transparent;
+  opacity: 1;
+  /* -webkit-text-stroke: 1px tomato; */
+  -webkit-animation: textAnimate 3s infinite alternate;
+  animation: textAnimate 3s infinite alternate;
+  stroke-width: 2;
+}
+.auth_section {
+  width: 30vw;
+  display: flex;
+  gap: 0.34rem;
+  align-items: center;
+}
+
+@-webkit-keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+  }
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+    fill: rgb(246, 243, 68);
+  }
+  50% {
+    fill: rgb(80, 224, 235);
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: rgb(233, 106, 106);
+  }
+}

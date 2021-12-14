@@ -1,0 +1,29 @@
+.form_input {
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  text-align: center;
+  transition: all 600ms ease-in;
+  width: 80%;
+
+  margin: auto;
+  z-index: 5;
+}
+form {
+  flex-direction: column;
+  transition: opacity 800ms ease-in 600ms;
+  /* display: none; */
+}
+.btns {
+  background-color: thistle;
+}
+.open {
+  display: flex;
+  align-items: center;
+}
+.open .form_head {
+  margin: auto;
+}
